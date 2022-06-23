@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "frontend-project-lvl1",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/mimironova/frontend-project-lvl1/issues"
   },
-  "homepage": "https://github.com/mimironova/frontend-project-lvl1#readme"
+  "homepage": "https://github.com/mimironova/frontend-project-lvl1#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  }
 }
